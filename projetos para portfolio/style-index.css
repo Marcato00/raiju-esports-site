@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Sarala&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-size: 100%;
+	background-image: linear-gradient(to bottom right, black, royalblue);
+	background-repeat: no-repeat;
+}
+
+.cabeçalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px;
+}
+
+.cabeçalho-imagem {
+	height: 72px;
+}
+
+.cabeçalho-menu {
+	display: flex;
+	gap: 32px;
+}
+
+.cabeçalho-menu-item {
+	font-family: 'Sarala', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+}
+
+.conteudo {
+	border-top: 0.4px solid white;
+	margin-bottom: 48px;
+}
+
+.conteudo-principal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 48px;
+}
+
+.conteudo-principal-escrito {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+	font-family: 'Pushster', cursive;
+	font-weight: 400;
+	font-size: 64px;
+	color: white;
+}
+
+.conteudo-principal-escrito-subtitulo {
+	font-family: 'Sarala', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color:  white;
+}
+
+.conteudo-principal-escrito-botao {
+	background-color: white;
+	width: 180px;
+	height: 60px;
+	border: none;
+	box-shadow: 4px 5px 4px royalblue;
+	border-radius: 20px;
+	font-family: 'Sarala', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.conteudo-principal-imagem {
+	height: 400px;
+}
+
+.conteudo-secundario {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+	border-top: 0.4px solid white;
+	padding: 48px;
+	font-family: 'Pushster', cursive;
+	font-weight: 400;
+	font-size: 24px;
+	color: white;
+	margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo {
+	font-family: 'Sarala', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color:  white;
+}
+
+.rodape {
+	padding: 32px;
+	border-top: 0.4px solid white;
+}
+
+.rodape-imagem {
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* efeitos em link*/
+a:link, a:visited {
+	text-decoration: none;
+	color:  white;
+	}
+a:hover {
+	text-decoration: underline;
+	color: white
+	}
+a:active {
+	text-decoration: none;
+	}
