@@ -133,3 +133,7 @@ a:hover {
 a:active {
 	text-decoration: none;
 	}
+
+.conteudo-principal-escrito-botao:hover {
+	background-color: rgba(228, 241, 255, 0.8);
+}
